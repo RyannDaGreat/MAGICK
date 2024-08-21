@@ -21,7 +21,7 @@ class CustomHTTPRequestHandler(SimpleHTTPRequestHandler):
                 self.end_headers()
 
 if __name__ == '__main__':
-    server_address = ('', 8000)  # Serve on all available interfaces, port 8000
+    server_address = ('0.0.0.0', 8000)  # Serve on all available interfaces, port 8000
     httpd = HTTPServer(server_address, CustomHTTPRequestHandler)
     print(f"Serving on http://{server_address[0]}:{server_address[1]}")
     httpd.serve_forever()
