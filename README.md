@@ -8,7 +8,7 @@ Presented at CVPR 2024, the MAGICK dataset is a comprehensive collection of over
 - **Paper:** [Read it here!](https://drive.google.com/file/d/1Eec6MQZOy00Qwgy1gvWHVSCfnuUqOwKz/view?usp=sharing)
 
 ### Dataset Explorer
-Explore the dataset using our custom-built explorer: [MAGICK Dataset Explorer](https://vision.cs.stonybrook.edu/ryan_adobe/magick_dataset_explorer_jun21_2024.html)
+Explore the dataset using our custom-built explorer: [MAGICK Dataset Explorer](https://ryanndagreat.github.io/MAGICK/Explorer/magick_rgba_explorer.html)
 
 ### Using the Dataset
 To use this dataset, download the index file and utilize the `page_id` and `subject` columns for data handling. `subject` provides the text caption for each image. Convert a `page_id` to its corresponding image URL using the following Python function:
